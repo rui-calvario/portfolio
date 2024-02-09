@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
+import Home from './components/Home';
 
 function App() {
-	return <main className='main'>This is a test</main>;
+	return (
+		<main className='main'>
+			<Home />
+		</main>
+	);
 }
 
 export default App;
