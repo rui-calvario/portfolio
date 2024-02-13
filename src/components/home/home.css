@@ -1,5 +1,9 @@
 .home {
-	background-color: var(--first-gradient);
+	background-image: var(--first-gradient);
+	padding-bottom: 180px;
+}
+
+.home__wrapper {
 	min-height: 100vh;
 	display: grid;
 	align-items: center;
@@ -18,6 +22,7 @@
 .home__subtitle,
 .home__job span {
 	font-size: var(--small-font-size);
+	color: var(--title-color);
 }
 
 .home__subtitle span,
@@ -89,6 +94,7 @@
 	padding-bottom: 100%;
 	border-radius: 50%;
 	position: relative;
+	z-index: 1;
 }
 
 .home__profile {
@@ -110,6 +116,7 @@
 	display: flex;
 	align-items: center;
 	position: absolute;
+	z-index: 1;
 }
 
 .home__data-one {
@@ -154,4 +161,20 @@
 	height: 226px;
 	top: -6%;
 	right: 6%;
+}
+
+.shape__2,
+.shape__3 {
+	width: 181px;
+	height: 181px;
+}
+
+.shape__2 {
+	bottom: 8%;
+	left: -16%;
+}
+
+.shape__3 {
+	bottom: 0;
+	right: -2%;
 }
